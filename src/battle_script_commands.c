@@ -3977,8 +3977,8 @@ static void Cmd_getexp(void)
                         gBattleMoveDamage += gExpShareExp;
                     if (holdEffect == HOLD_EFFECT_LUCKY_EGG)
                         gBattleMoveDamage = (gBattleMoveDamage * 150) / 100;
-                    if (gBattleTypeFlags & BATTLE_TYPE_TRAINER && B_TRAINER_EXP_MULTIPLIER <= GEN_7)
-                        gBattleMoveDamage = (gBattleMoveDamage * 150) / 100;
+                    if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
+                        gBattleMoveDamage = (gBattleMoveDamage * 200) / 100;
 					
 					
 					for (count = CalculatePlayerPartyCount(), i = 0; i < count; i++)
