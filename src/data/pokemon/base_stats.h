@@ -683,14 +683,14 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_RAICHU] =
     {
-        .baseHP        = 70, // 60 -> 70
+        .baseHP        = 75, // 60 -> 70 -> 75 (Gogglebrian)
         .baseAttack    = 100,// 90 -> 100
-        .baseDefense   = 55,
+        .baseDefense   = 65,// 55 -> 65 (Gogglebrian)
         .baseSpAttack  = 100,// 90 -> 100
         .baseSpDefense = 80,
-        .baseSpeed     = 110,
+        .baseSpeed     = 115,// 110 -> 115 (Gogglebrian)
         .type1 = TYPE_ELECTRIC,
-        .type2 = TYPE_ELECTRIC,
+        .type2 = TYPE_FIGHTING,
         .catchRate = 75,
         .expYield = 218,
         .evYield_Speed     = 3,
@@ -703,7 +703,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FAIRY,
         .abilities = {ABILITY_STATIC, ABILITY_NONE},
-        .abilityHidden = ABILITY_LIGHTNING_ROD,
+        .abilityHidden = ABILITY_MOXIE,
         .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,
     },
@@ -26730,12 +26730,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_RAICHU_ALOLAN] =
     {
-        .baseHP        = 60,
-        .baseAttack    = 85,
-        .baseDefense   = 50,
-        .baseSpeed     = 110,
-        .baseSpAttack  = 95,
-        .baseSpDefense = 85,
+        .baseHP        = 75, // 60 -> 75 (Gogglebrian)
+        .baseAttack    = 75, // 85 -> 75 (Gogglebrian)
+        .baseDefense   = 65, // 50 -> 65 (Gogglebrian)
+        .baseSpeed     = 125, // 110 -> 125 (Gogglebrian)
+        .baseSpAttack  = 105, // 95 -> 105 (Gogglebrian)
+        .baseSpDefense = 90, // 85 -> 90 (Gogglebrian)
         .type1 = TYPE_ELECTRIC,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 75,
