@@ -1470,7 +1470,7 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_MEOWTH] =
     {
         .baseHP        = 50,
-        .baseAttack    = 55,
+        .baseAttack    = 60, // 55 -> 60 (Gogglebrian)
         .baseDefense   = 35,
         .baseSpeed     = 90,
         .baseSpAttack  = 40,
@@ -1500,7 +1500,7 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_PERSIAN] =
     {
         .baseHP        = 70,
-        .baseAttack    = 80,// 70 -> 80
+        .baseAttack    = 100,// 70 -> 80 -> 100 (Gogglebrian)
         .baseDefense   = 60,
         .baseSpeed     = 120,
         .baseSpAttack  = 60,// 55 -> 60
