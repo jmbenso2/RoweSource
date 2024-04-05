@@ -4,6 +4,7 @@
 * Elite Four, Champion, and Wally will default to single battles
 * Trainer battles give double XP and a whole lot more money
 * Raichu gets Fighting type, buffed stats, and Moxie hidden ability (and some minor buffs for Pichu and Pikachu too)
+* Meowth learns False Swipe at lv 16 or by TM
 
 
 ## Original ROWE Links
